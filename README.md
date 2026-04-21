@@ -1,4 +1,10 @@
-# my-friend-delv
+# lab-my-friend-delv
+
+[![project](https://img.shields.io/badge/github-psaraiva%2Flab--my--friend--delv-blue)](https://github.com/psaraiva/lab-my-friend-delv)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/psaraiva/lab-my-friend-delv?style=flat)](https://goreportcard.com/report/github.com/psaraiva/lab-my-friend-delv)
+[![Language: Português](https://img.shields.io/badge/Language-Portugu%C3%AAs-green?style=flat-square)](./README.pt-BR.md)
 
 A Go playground for exploring **Delve (`dlv`)** — the Go debugger.
 
@@ -187,7 +193,7 @@ Open `app02/.cli-rest/app.http` or `app03/.cli-rest/app.http` in VS Code. A **Se
 ## Project Structure
 
 ```
-my-friend-delv/
+lab-my-friend-delv/
 ├── app01/
 │   ├── .vscode/
 │   │   └── launch.json     # Delve debug configuration
@@ -215,4 +221,4 @@ my-friend-delv/
 
 - Go `1.25.7`+
 - [Delve](https://github.com/go-delve/delve) (`dlv`) for debugging
-- VS Code with the [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension (optional)
+- VS Code with the [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension (recomendado)

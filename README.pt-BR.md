@@ -1,4 +1,11 @@
-# my-friend-delv
+# lab-my-friend-delv
+
+[![project](https://img.shields.io/badge/github-psaraiva%2Flab--my--friend--delv-blue)](https://github.com/psaraiva/lab-my-friend-delv)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/psaraiva/lab-my-friend-delv?style=flat)](https://goreportcard.com/report/github.com/psaraiva/lab-my-friend-delv)
+[![Language: English](https://img.shields.io/badge/Idioma-English-blue?style=flat-square)](./README.md)
+
 
 Um playground Go para explorar o **Delve (`dlv`)** — o debugger oficial do Go.
 
@@ -215,4 +222,4 @@ my-friend-delv/
 
 - Go `1.25.7`+
 - [Delve](https://github.com/go-delve/delve) (`dlv`) para depuração
-- VS Code com a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) (opcional)
+- VS Code com a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) (recommended)
