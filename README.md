@@ -221,4 +221,4 @@ lab-my-friend-delv/
 
 - Go `1.25.7`+
 - [Delve](https://github.com/go-delve/delve) (`dlv`) for debugging
-- VS Code with the [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension (recomendado)
+- VS Code with the [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension (recommended)

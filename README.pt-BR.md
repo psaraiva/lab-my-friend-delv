@@ -222,4 +222,4 @@ my-friend-delv/
 
 - Go `1.25.7`+
 - [Delve](https://github.com/go-delve/delve) (`dlv`) para depuração
-- VS Code com a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) (recommended)
+- VS Code com a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) (recomendado)
