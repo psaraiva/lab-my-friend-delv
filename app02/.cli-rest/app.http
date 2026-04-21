@@ -1,0 +1,21 @@
+###############################################
+################# APP 02 ######################
+###  Lançador de Dados    | porta 9022      ###
+###############################################
+
+@app02 = http://localhost:9022
+
+### Lançar dado de 6 faces
+GET {{app02}}/roll/comum
+
+###
+
+### Lançar dado de 12 faces
+GET {{app02}}/roll/arcano
+
+###
+
+### Lançar dado de 16 faces
+GET {{app02}}/roll/dragao
+
+###

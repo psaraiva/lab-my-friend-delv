@@ -1,0 +1,55 @@
+###############################################
+################# APP 03 ######################
+###  Gerenciador de Dados  | porta 9023     ###
+###############################################
+
+### CONFIG
+@app03 = http://localhost:9023
+
+### Cadastrar um dado (D6)
+POST {{app03}}/dices
+Content-Type: application/json
+
+{
+  "name": "comum",
+  "sides": 6
+}
+
+###
+
+### Cadastrar um dado (D12)
+POST {{app03}}/dices
+Content-Type: application/json
+
+{
+  "name": "arcano",
+  "sides": 12
+}
+
+###
+
+### Cadastrar um dado (D16)
+POST {{app03}}/dices
+Content-Type: application/json
+
+{
+  "name": "dragao",
+  "sides": 16
+}
+
+###
+
+### Listar todos os dados cadastrados
+GET {{app03}}/dices
+
+###
+
+### Buscar dado pelo nome
+GET {{app03}}/dices/dragao
+
+###
+
+### Remover dado pelo nome
+DELETE {{app03}}/dices/dragao
+
+###
